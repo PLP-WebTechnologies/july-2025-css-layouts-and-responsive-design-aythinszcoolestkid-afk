@@ -1,0 +1,56 @@
+/* General Page Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+}
+
+/* Header Styling */
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Navigation Bar */
+nav ul {
+    list-style: none; /* Remove bullets */
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    overflow: hidden;
+}
+
+nav li {
+    display: inline; /* Place items horizontally */
+}
+
+nav a {
+    color: white;
+    padding: 14px 20px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #111;
+}
+
+/* Box Model Example */
+.box {
+    background-color: white;
+    margin: 20px;          /* Space outside the box */
+    padding: 15px;         /* Space inside the box */
+    border: 2px solid #333;/* Border around the box */
+    border-radius: 8px;    /* Rounded corners */
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
